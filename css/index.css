@@ -33,6 +33,14 @@ a{
     padding: 0.8em;
     color: white;
     box-shadow: 0.2em 0.2em rgb(160, 41, 41);
+    transition: all 0.2s;
+}
+.navbar_buttons:hover{
+    background-color: rgb(178, 46, 46);
+    font-size: 1.2rem;
+    padding: 0.6em;
+    border-radius: 1em;
+    box-shadow: 0.2em 0.2em rgb(178, 46, 46);
 }
 #login_signup_div{
     justify-content: space-evenly;
@@ -54,8 +62,10 @@ a{
     padding: 2em;
     width:max(250px,50%);
     height:100%;
-    align-self: flex-start;
     background-color: bisque;
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
 }
 #right_side{
     align-self: flex-start;
