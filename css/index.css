@@ -55,9 +55,7 @@ a{
 #main_container{
     display: flex;
     justify-content: space-evenly;
-    background-color: blueviolet;
     padding:4em;
-    border: 5px solid rgb(127, 100, 100);
 }
 #left_side{
     padding: 2em;
